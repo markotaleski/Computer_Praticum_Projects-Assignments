@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lnag="en-US">
+<head>
+	<style>
+		h1 {
+  		font-size: 30px;
+  		text-align:center;
+		}
+		p {
+	  	font-size: 20px;
+		}
+	</style>
+	<title>Upload Page</title>
+</head>
+<body style="background-color:lightgreen;">
+
+	<h1>Upload your own meme</h1>
+	<hr>
+
+	<p>Here you can upload your own meme and share it with all the memebers in the community. Please just fill out this quick form so that we can process the meme.</p>
+	<br>
+
+	<form action="uploaded.html" method="post">
+	<fieldset>
+	 <legend>Meme information:</legend>
+	  <label for="Mtitle">Name/Title for your meme:</label><br>
+	  <input type="text" id="Mtitle" name="Mtitle"><br>
+	  <label for="textarea">Paragraph describing this meme</label><br>
+	  <textarea name="message" rows="15" cols="40">
+	  </textarea><br>
+	  <label for="myfile">Select a file:</label><br>
+	  <input type="file" id="mymeme" name="mymeme"><br>
+	  <br>
+	  <input type="submit" value="Submit">
+	</fieldset>
+
+	<footer>
+	  	<p>Author: Marko Taleski</p>
+	 	<p><a href="89201031@student.upr.si" target="_blank">89201031@student.upr.si</a></p>
+	</footer>
+</body>
+</html>

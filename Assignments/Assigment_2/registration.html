@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lnag="en-US">
+<head>
+	<style>
+		h1 {
+  		font-size: 30px;
+  		text-align:center;
+		}
+		p {
+	  	font-size: 20px;
+		}
+	</style>
+	<title>Register Page</title>
+</head>
+<body style="background-color:lightblue;">
+
+	<h1>Registration form</h1>
+	<hr>
+
+	<p>Welcome to the registration process, here you have to input your personal data in order to become a member of the Meme community. Once a member you can upload memes and grade the memes of other memebers</p>
+	<br>
+
+	<form action="registered.html" method="post">
+	<fieldset>
+	 <legend>Personal:</legend>
+	  <label for="fname">First name:</label><br>
+	  <input type="text" id="fname" name="fname"><br>
+	  <label for="lname">Last name:</label><br>
+	  <input type="text" id="lname" name="lname"><br>
+	  <label for="birthdate">Date of birth:</label><br>
+	  <input type="date" id="birthdate" name="birthdate" min="1970-01-01" max="2020-12-31"><br>
+	  <label for="radio">Gender:</label><br>
+	  <input type="radio" id="male" name="gender" value="male">
+	  <label for="male">Male</label>
+	  <input type="radio" id="female" name="gender" value="female">
+	  <label for="female">Female</label>
+	  <input type="radio" id="other" name="gender" value="other">
+	  <label for="other">Other</label>
+	</fieldset>
+	<br>
+	<fieldset>
+	  <legend>Account:</legend>
+		<label for="username">Username:</label><br>
+		<input type="text" id="username" name="username"><br>
+		<label for="pwd">Password:</label><br>
+		<input type="password" id="pass" name="pass"><br>
+		<label for="confirmpass">Confirm Password:</label><br>
+		<input type="text" id="confirmpass" name="confirmpass"><br>
+		<label for="email">Enter your email:</label><br>
+		<input type="email" id="email" name="email"><br>
+		<label for="confirmemail">Confirm your email:</label><br>
+		<input type="email" id="confirmemail" name="confirmemail"><br>
+	</fieldset>
+	<br>
+	<label for="textarea">Reasons for joining our Meme Crew</label><br>
+	<textarea name="message" rows="15" cols="40">
+	</textarea><br>
+	<input type="submit" value="Submit">
+	</form>
+	
+	<footer>
+	  	<p>Author: Marko Taleski</p>
+	 	<p><a href="89201031@student.upr.si" target="_blank">89201031@student.upr.si</a></p>
+	</footer>
+</body>
+</html>
